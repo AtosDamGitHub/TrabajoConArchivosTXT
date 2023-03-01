@@ -27,13 +27,13 @@ Entrega del GRUPO ATOS de la ACTIVIDAD DE CLASE 5.6 perteneciente a FICHEROS DE 
 
 12. Diseñar una pequeña agenda, que muestre el siguiente funcionamiento:<br>
 ○ Nuevo contacto<br>
-○ Buscar por nombre
-○ Mostrar todos
-○ Salir
-En la agenda guardaremos los nombres y teléfonos de las personas.
+○ Buscar por nombre<br>
+○ Mostrar todos<br>
+○ Salir<br>
+<b>En la agenda guardaremos los nombres y teléfonos de las personas.</b><br>
 
-• La opción 1 nos permitirá introducir un nuevo contacto, comprobando que el nombre no se encuentra insertado ya.
-• La opción 2 muestra todos los teléfonos que coinciden con la cadena a buscar. Por ejemplo, si tecleamos "Pe", mostrará el teléfono de Pedro, de Pepe y de Petunia.
-• La opción 3 mostrará un listado con toda la información (nombres y teléfonos) ordenados alfabéticamente por el nombre. 
-• Por último, la opción 4 guarda todos los datos de la agenda en el archivo agenda.txt.
+• La opción 1 nos permitirá introducir un nuevo contacto, comprobando que el nombre no se encuentra insertado ya.<br>
+• La opción 2 muestra todos los teléfonos que coinciden con la cadena a buscar. Por ejemplo, si tecleamos "Pe", mostrará el teléfono de Pedro, de Pepe y de Petunia.<br>
+• La opción 3 mostrará un listado con toda la información (nombres y teléfonos) ordenados alfabéticamente por el nombre.<br>
+• Por último, la opción 4 guarda todos los datos de la agenda en el archivo agenda.txt.<br>
 _La próxima vez que se ejecute la agenda , se debe comprobar si hay datos guardados y cargarlos._
