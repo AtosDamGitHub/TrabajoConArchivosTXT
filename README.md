@@ -25,8 +25,8 @@ Entrega del GRUPO ATOS de la ACTIVIDAD DE CLASE 5.6 perteneciente a FICHEROS DE 
 
 11. Algunos sistemas operativos disponen del comando comp, que compara dos archivos y nos dice si son iguales o distintos. Diseñar este comando de forma que, además, nos diga en qué línea y carácter se encuentra la primera diferencia. Utilizar los ficheros texto1.txt y texto2.txt.
 
-12. Diseñar una pequeña agenda, que muestre el siguiente funcionamiento:
-○ Nuevo contacto
+12. Diseñar una pequeña agenda, que muestre el siguiente funcionamiento:<br>
+○ Nuevo contacto<br>
 ○ Buscar por nombre
 ○ Mostrar todos
 ○ Salir
