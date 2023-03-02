@@ -1,20 +1,20 @@
-package Flujo_Datos;
+package ejercicio10;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class Actividad_10 {
+public class Ejercicio10 {
 
 	public static void main(String[] args) {
 
 		int fila, columna;
 		int[][] matriz, traspuesta;
 
-		try (BufferedReader in = new BufferedReader(new FileReader("matriz.txt"))) {
+		try (BufferedReader in = new BufferedReader(new FileReader("src\\ficheros\\matriz.txt"))) {
 			String linea = in.readLine(); // Lee una línea completa de un archivo
 			String datos[] = linea.split(" "); // Cuando en la variable línea se encuentre un espacio en blanco, se
-												// guarda un dato en el array "dato"
+							  // guarda un dato en el array "dato"
 			fila = Integer.parseInt(datos[0]); // El primer elemento que se encuentre hasta un espacio en blanco se
 												// guardará en la variable fila
 			columna = Integer.parseInt(datos[1]);
