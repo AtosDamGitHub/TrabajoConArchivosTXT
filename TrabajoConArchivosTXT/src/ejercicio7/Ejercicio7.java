@@ -1,4 +1,4 @@
-package Flujo_Datos;
+package ejercicio7;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -7,13 +7,13 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class Actividad_7 {
+public class Ejercicio7 {
 
 	public static void main(String[] args) {
 
-		File file1 = new File("perso1.txt");
-		File file2 = new File("perso2.txt");
-		File file3 = new File("todos.txt");
+		File file1 = new File("src\\ficheros\\perso1.txt");
+		File file2 = new File("src\\ficheros\\perso2.txt");
+		File file3 = new File("src\\ficheros\\todos.txt");
 
 		// Creamos tres objetos "BufferedReader" para guardar los archivos
 		try (BufferedReader arch1 = new BufferedReader(new FileReader(file1));
